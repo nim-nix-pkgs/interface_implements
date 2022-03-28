@@ -11,6 +11,7 @@
   inputs.src-interface_implements-v0_2_2.ref   = "refs/tags/v0.2.2";
   inputs.src-interface_implements-v0_2_2.owner = "itsumura-h";
   inputs.src-interface_implements-v0_2_2.repo  = "nim-interface-implements";
+  inputs.src-interface_implements-v0_2_2.dir   = "";
   inputs.src-interface_implements-v0_2_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
